@@ -34,7 +34,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/app.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "    <div class=\"header\">\n\t\t<div class=\"container\">\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-sm-2\">\n\t\t\t\t\t<div class=\"logo border-right\">\n\t\t\t\t\t\t<img src=\"/assets/images/logo.png\" alt=\"yellotasker\">\n\t\t\t\t\t</div>\t\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-sm-5\">\n\t\t\t\t\t<ul class=\"top-links-left\">\n\t\t\t\t\t\t<li><a href=\"#\" data-toggle=\"modal\" data-target=\"#myModal\">Login</a></li>\n\t\t\t\t\t\t<li><a href=\"#\" data-toggle=\"modal\" data-target=\"#myModal1\">Sign up</a></li>\n\t\t\t\t\t\t<li><a href=\"#\">How it works</a></li>\n\t\t\t\t\t</ul>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-sm-5\">\n\t\t\t\t\t<div class=\"right-top-links pull-right\">\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"#\">Post a task</a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\">Browse a task</a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t</div>\n\t\t</div>\n    </div>\n <router-outlet></router-outlet>\n\n <div class=\"footer\">\n\t\t<div class=\"container\">\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-sm-3\">\n\t\t\t\t\t<h4>Discover</h4>\n\t\t\t\t\t<ul class=\"footer-link\">\n\t\t\t\t\t\t<li><a href=\"#\">Yellotasker card</a></li>\n\t\t\t\t\t\t<li><a href=\"#\">How it works</a></li>\n\t\t\t\t\t\t<li><a href=\"#\">Yellotasker for business</a></li>\n\t\t\t\t\t\t<li><a href=\"#\">Earn money</a></li>\n\t\t\t\t\t\t<li><a href=\"#\">New user FAQ</a></li>\n\t\t\t\t\t</ul>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-sm-3\">\n\t\t\t\t\t<h4>Company</h4>\n\t\t\t\t\t<ul class=\"footer-link\">\n\t\t\t\t\t\t<li><a href=\"#\">About us</a></li>\n\t\t\t\t\t\t<li><a href=\"#\">Careers</a></li>\n\t\t\t\t\t\t<li><a href=\"#\">Community guidelines</a></li>\n\t\t\t\t\t\t<li><a href=\"#\">Terms & conditions</a></li>\n\t\t\t\t\t\t<li><a href=\"#\">Blog</a></li>\n\t\t\t\t\t\t<li><a href=\"#\">Contact us</a></li>\n\t\t\t\t\t\t<li><a href=\"#\">Privacy policy</a></li>\n\t\t\t\t\t\t<li><a href=\"#\">Values</a></li>\n\t\t\t\t\t</ul>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-sm-3\">\n\t\t\t\t\t<h4>Existing Members</h4>\n\t\t\t\t\t<ul class=\"footer-link\">\n\t\t\t\t\t\t<li><a href=\"#\">Post a task</a></li>\n\t\t\t\t\t\t<li><a href=\"#\">Browse tasks</a></li>\n\t\t\t\t\t\t<li><a href=\"#\">Login</a></li>\n\t\t\t\t\t\t<li><a href=\"#\">Yellotasker</a></li>\n\t\t\t\t\t\t<li><a href=\"#\">Support centre</a></li>\n\t\t\t\t\t\t<li><a href=\"#\">Merchandise</a></li>\n\t\t\t\t\t</ul>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-sm-3\">\n\t\t\t\t\t<h4>Categories</h4>\n\t\t\t\t\t<ul class=\"footer-link\">\n\t\t\t\t\t\t<li><a href=\"#\">Tradesman</a></li>\n\t\t\t\t\t\t<li><a href=\"#\">Marketing and design</a></li>\n\t\t\t\t\t\t<li><a href=\"#\">Home and garden</a></li>\n\t\t\t\t\t\t<li><a href=\"#\">Delivery and removals</a></li>\n\t\t\t\t\t\t<li><a href=\"#\">Fun and quirky</a></li>\n\t\t\t\t\t\t<li><a href=\"#\">Event and photography</a></li>\n\t\t\t\t\t\t<li><a href=\"#\">Computer it web</a></li>\n\t\t\t\t\t\t<li><a href=\"#\">Business and admin</a></li>\n\t\t\t\t\t</ul>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-sm-12\">\n\t\t\t\t\t<div class=\"footer-app\">\n\t\t\t\t\t\t<img src=\"/assets/images/google-play.png\" height=\"35px;\"> <img src=\"/assets/images/apple-store.png\" height=\"35px;\">\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t\n\t\t</div>\n\t</div>\n\t<div class=\"last\">\n\t\t<p>yellotasker 2017, All rights reserved</p>\n\t</div>"
+module.exports = "    <div class=\"header\">\n\t\t<div class=\"container\">\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-sm-2\">\n\t\t\t\t\t<div class=\"logo border-right\">\n\t\t\t\t\t\t<img src=\"/assets/images/logo.png\" alt=\"yellotasker\">\n\t\t\t\t\t</div>\t\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-sm-5\">\n\t\t\t\t\t<ul class=\"top-links-left\">\n\t\t\t\t\t\t<li><a href=\"#\" data-toggle=\"modal\" data-target=\"#loginModal\">Login</a></li>\n\t\t\t\t\t\t<li><a data-toggle=\"modal\" data-target=\"#signUpModal\">Sign up</a></li>\n\t\t\t\t\t\t<li><a href=\"#\">How it works</a></li>\n\t\t\t\t\t</ul>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-sm-5\">\n\t\t\t\t\t<div class=\"right-top-links pull-right\">\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"#\">Post a task</a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\">Browse a task</a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t</div>\n\t\t</div>\n    </div>\n <router-outlet></router-outlet>\n\n <div class=\"footer\">\n\t\t<div class=\"container\">\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-sm-3\">\n\t\t\t\t\t<h4>Discover</h4>\n\t\t\t\t\t<ul class=\"footer-link\">\n\t\t\t\t\t\t<li><a href=\"#\">Yellotasker card</a></li>\n\t\t\t\t\t\t<li><a href=\"#\">How it works</a></li>\n\t\t\t\t\t\t<li><a href=\"#\">Yellotasker for business</a></li>\n\t\t\t\t\t\t<li><a href=\"#\">Earn money</a></li>\n\t\t\t\t\t\t<li><a href=\"#\">New user FAQ</a></li>\n\t\t\t\t\t</ul>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-sm-3\">\n\t\t\t\t\t<h4>Company</h4>\n\t\t\t\t\t<ul class=\"footer-link\">\n\t\t\t\t\t\t<li><a href=\"#\">About us</a></li>\n\t\t\t\t\t\t<li><a href=\"#\">Careers</a></li>\n\t\t\t\t\t\t<li><a href=\"#\">Community guidelines</a></li>\n\t\t\t\t\t\t<li><a href=\"#\">Terms & conditions</a></li>\n\t\t\t\t\t\t<li><a href=\"#\">Blog</a></li>\n\t\t\t\t\t\t<li><a href=\"#\">Contact us</a></li>\n\t\t\t\t\t\t<li><a href=\"#\">Privacy policy</a></li>\n\t\t\t\t\t\t<li><a href=\"#\">Values</a></li>\n\t\t\t\t\t</ul>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-sm-3\">\n\t\t\t\t\t<h4>Existing Members</h4>\n\t\t\t\t\t<ul class=\"footer-link\">\n\t\t\t\t\t\t<li><a href=\"#\">Post a task</a></li>\n\t\t\t\t\t\t<li><a href=\"#\">Browse tasks</a></li>\n\t\t\t\t\t\t<li><a href=\"#\">Login</a></li>\n\t\t\t\t\t\t<li><a href=\"#\">Yellotasker</a></li>\n\t\t\t\t\t\t<li><a href=\"#\">Support centre</a></li>\n\t\t\t\t\t\t<li><a href=\"#\">Merchandise</a></li>\n\t\t\t\t\t</ul>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-sm-3\">\n\t\t\t\t\t<h4>Categories</h4>\n\t\t\t\t\t<ul class=\"footer-link\">\n\t\t\t\t\t\t<li><a href=\"#\">Tradesman</a></li>\n\t\t\t\t\t\t<li><a href=\"#\">Marketing and design</a></li>\n\t\t\t\t\t\t<li><a href=\"#\">Home and garden</a></li>\n\t\t\t\t\t\t<li><a href=\"#\">Delivery and removals</a></li>\n\t\t\t\t\t\t<li><a href=\"#\">Fun and quirky</a></li>\n\t\t\t\t\t\t<li><a href=\"#\">Event and photography</a></li>\n\t\t\t\t\t\t<li><a href=\"#\">Computer it web</a></li>\n\t\t\t\t\t\t<li><a href=\"#\">Business and admin</a></li>\n\t\t\t\t\t</ul>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-sm-12\">\n\t\t\t\t\t<div class=\"footer-app\">\n\t\t\t\t\t\t<img src=\"/assets/images/google-play.png\" height=\"35px;\"> <img src=\"/assets/images/apple-store.png\" height=\"35px;\">\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t\n\t\t</div>\n\t</div>\n\t<div class=\"last\">\n\t\t<p>yellotasker 2017, All rights reserved</p>\n\t</div>\n\n\t<!--sign up pop up-->\n<div class=\"modal fade\" id=\"signUpModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"myModalLabel\">\n  <div class=\"modal-dialog\" role=\"document\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>\n        <h4 class=\"modal-title\" id=\"myModalLabel\">Sign up</h4>\n      </div>\n      <div class=\"modal-body\">\n\t\t  <div class=\"login-div text-center\">\n\t\t\t\t<p>Already have an account? <a href=\"#\">Login</a></p>\n\t\t\t</div>\n\t\t\t<div class=\"facebook-btn\">\n\t\t\t\t<a href=\"#\">Sign up With Facebook</a>\n\t\t\t</div>\n\t\t\t<div class=\"login-form-item\"><div class=\"wings\">or</div></div>\n\t<form #signUpForm=\"ngForm\">\n\t\t<div *ngIf=\"signUpForm.invalid && signUpForm.submitted\"\n          class=\"alert alert-danger\">\n\t\t  Please enter required details.\n\t\t</div>\n            <div class=\"form-item login-form-item\">\n\t          <label class=\"block\">FirstName</label>\n              <input type=\"text\" id=\"FirstName\" name=\"FirstName\" required\n\t\t\t\t\t[(ngModel)]=\"user.first_name\" >\n\t\t\t</div>\n            <div class=\"form-item login-form-item\">\n\t\t\t\t<label class=\"block\">LastName</label>\n                <input type=\"text\" id=\"LastName\" name=\"LastName\" required\n\t\t\t\t\t[(ngModel)]=\"user.last_name\" >\n\t\t    </div>\n\t\t\t<div class=\"form-item login-form-item\"><label class=\"block\">Email</label>\n            <input type=\"email\" id=\"email\" name=\"email\" required\n\t\t\t\t\t[(ngModel)]=\"user.email\"></div>\n\t\t\t<div class=\"form-item login-form-item\"><label class=\"block\">Password</label>\n            <input type=\"password\" id=\"password\" name=\"password\" required\n\t\t\t\t\t[(ngModel)]=\"user.password\"></div>\n            <div class=\"form-item login-form-item\"><label class=\"block\">Confirm Password</label>\n            <input type=\"password\" id=\"confirmpassword\" name=\"confirmpassword\" name=\"confirmpassword\" required\n\t\t\t\t\t[(ngModel)]=\"user.confirmpassword\"></div>\n\t\t\t<div class=\"form-item login-form-item center padder5\">\n            <button id=\"login-button\" class=\"button-cta button-lrg center full-width\" (click) = \"signUp()\">Join Yellotasker</button>\n        \n                 <a class=\"forgot-password-link small center margin-20-top\">By signing up, I agree to Yellotasker's Terms & Conditions, \nPrivacy Policy and Community Guidelines.</a></div>\n\t\t  </form>\n      </div>\n      \n    </div>\n  </div>\n</div>\n\n\n<!-- Modal -->\n<div class=\"modal fade\" id=\"loginModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"myModalLabel\">\n  <div class=\"modal-dialog\" role=\"document\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>\n        <h4 class=\"modal-title\" id=\"myModalLabel\">Login</h4>\n      </div>\n      <div class=\"modal-body\">\n\t\t\t<div class=\"login-div text-center\">\n\t\t\t\t<p>Dont have an account? <a href=\"#\">Sign up</a></p>\n\t\t\t</div>\n\t\t\t<div class=\"facebook-btn\">\n\t\t\t\t<a href=\"#\">Login With Facebook</a>\n\t\t\t</div>\n\t\t\t<div class=\"login-form-item\"><div class=\"wings\">or</div></div>\n\t\t\t<form #loginForm=\"ngForm\">\n\t\t    <div *ngIf=\"loginForm.invalid && loginForm.submitted\"\n              class=\"alert alert-danger\">\n\t\t      Please enter required details.\n\t\t    </div>\n\t\t\t<div class=\"form-item login-form-item\"><label class=\"block\">Email</label>\n\t\t\t<input type=\"email\" name=\"email\" id=\"email\" required\n\t\t\t\t\t[(ngModel)]=\"user.email\">\n\t\t\t</div>\n\t\t\t<div class=\"form-item login-form-item\"><label class=\"block\">Password</label>\n\t\t\t<input type=\"password\" name=\"password\" id=\"password\" required\n\t\t\t\t\t[(ngModel)]=\"user.password\">\n\t\t\t</div>\n\t\t\t<div class=\"form-item login-form-item center padder5\">\n\t\t\t\t<button id=\"login-button\" class=\"button-cta button-lrg center full-width\" (click) = \"login()\">Login</button>\n\t\t\t\t<a class=\"forgot-password-link small center margin-20-top\">Forgot Password?</a></div>\n\t\t\t</form>\n      </div>\n      \n    </div>\n  </div>\n</div>"
 
 /***/ }),
 
@@ -43,6 +43,12 @@ module.exports = "    <div class=\"header\">\n\t\t<div class=\"container\">\n\t\
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__modal_user__ = __webpack_require__("../../../../../src/app/modal/user.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_http_service__ = __webpack_require__("../../../../../src/app/services/http.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_observable_throw__ = __webpack_require__("../../../../rxjs/add/observable/throw.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_observable_throw___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_observable_throw__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Rx__ = __webpack_require__("../../../../rxjs/Rx.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Rx___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_Rx__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -50,21 +56,63 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
 
 var AppComponent = (function () {
-    function AppComponent() {
-        this.title = 'app';
+    function AppComponent(_httpService) {
+        this._httpService = _httpService;
+        this.user = new __WEBPACK_IMPORTED_MODULE_1__modal_user__["a" /* User */]('', '', '', '');
+        this.submitted = false;
     }
+    AppComponent.prototype.signUp = function () {
+        var _this = this;
+        this.submitted = true;
+        var signupOperation;
+        console.log(this.user);
+        signupOperation = this._httpService.signUpUser(this.user);
+        console.log("response" + signupOperation);
+        signupOperation.subscribe(function (users) {
+            // Empty model
+            _this.user = new __WEBPACK_IMPORTED_MODULE_1__modal_user__["a" /* User */]('', '', '', '');
+        }, function (err) {
+            // Log errors if any
+            console.log(err);
+        });
+    };
+    AppComponent.prototype.login = function () {
+        var _this = this;
+        this.submitted = true;
+        var loginOperation;
+        console.log(this.user);
+        loginOperation = this._httpService.loginUser(this.user);
+        console.log("response" + loginOperation);
+        loginOperation.subscribe(function (users) {
+            // Empty model
+            _this.user = new __WEBPACK_IMPORTED_MODULE_1__modal_user__["a" /* User */]('', '', '', '');
+        }, function (err) {
+            // Log errors if any
+            console.log(err);
+        });
+    };
     return AppComponent;
 }());
 AppComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* Component */])({
         selector: 'app-root',
         template: __webpack_require__("../../../../../src/app/app.component.html"),
-        styles: [__webpack_require__("../../../../../src/app/app.component.css")]
-    })
+        styles: [__webpack_require__("../../../../../src/app/app.component.css")],
+        providers: [__WEBPACK_IMPORTED_MODULE_2__services_http_service__["a" /* HttpService */]]
+    }),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__services_http_service__["a" /* HttpService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__services_http_service__["a" /* HttpService */]) === "function" && _a || Object])
 ], AppComponent);
 
+var _a;
 //# sourceMappingURL=app.component.js.map
 
 /***/ }),
@@ -78,6 +126,8 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__dashboard_dashboard_component__ = __webpack_require__("../../../../../src/app/dashboard/dashboard.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__("../../../../../src/app/app.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_router__ = __webpack_require__("../../../router/@angular/router.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_forms__ = __webpack_require__("../../../forms/@angular/forms.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_http__ = __webpack_require__("../../../http/@angular/http.es5.js");
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -90,6 +140,9 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
+
+
+//import { signUpComponent } from './signup/signup.component';
 var appRoutes = [
     { path: 'dashboard', component: __WEBPACK_IMPORTED_MODULE_2__dashboard_dashboard_component__["a" /* DashBoardComponent */] },
     { path: '', component: __WEBPACK_IMPORTED_MODULE_2__dashboard_dashboard_component__["a" /* DashBoardComponent */], pathMatch: 'full' }
@@ -107,7 +160,9 @@ AppModule = __decorate([
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
-            __WEBPACK_IMPORTED_MODULE_4__angular_router__["a" /* RouterModule */].forRoot(appRoutes)
+            __WEBPACK_IMPORTED_MODULE_4__angular_router__["a" /* RouterModule */].forRoot(appRoutes),
+            __WEBPACK_IMPORTED_MODULE_5__angular_forms__["a" /* FormsModule */],
+            __WEBPACK_IMPORTED_MODULE_6__angular_http__["a" /* HttpModule */]
         ],
         providers: [],
         bootstrap: [__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* AppComponent */]]
@@ -144,13 +199,110 @@ var DashBoardComponent = (function () {
     return DashBoardComponent;
 }());
 DashBoardComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* Component */])({
         selector: 'my-app',
         template: __webpack_require__("../../../../../src/app/dashboard/dashboard.component.html"),
     })
 ], DashBoardComponent);
 
 //# sourceMappingURL=dashboard.component.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/modal/user.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return User; });
+var User = (function () {
+    function User(first_name, email, password, last_name) {
+        this.first_name = first_name;
+        this.email = email;
+        this.password = password;
+        this.last_name = last_name;
+    }
+    return User;
+}());
+
+//# sourceMappingURL=user.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/services/http.service.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__("../../../http/@angular/http.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__("../../../../rxjs/Observable.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__ = __webpack_require__("../../../../rxjs/add/operator/map.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_observable_throw__ = __webpack_require__("../../../../rxjs/add/observable/throw.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_observable_throw___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_observable_throw__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HttpService; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var HttpService = (function () {
+    // Inject Angular http service
+    function HttpService(_http) {
+        this._http = _http;
+        this.yellotasker_Api_URL = 'http://api.yellotasker.co/';
+    }
+    //sign up user
+    HttpService.prototype.signUpUser = function (user) {
+        //let bodyString = JSON.stringify(user); // Stringify payload
+        var headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Headers */]({ 'Content-Type': 'application/json' }); // ... Set content type to JSON
+        var options = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["c" /* RequestOptions */]({ headers: headers }); // Create a request option
+        return this._http.post(this.yellotasker_Api_URL + 'api/v1/user/signup', JSON.stringify(user), options)
+            .map(function (response) { return response.json(); })
+            .catch(function (error) {
+            console.log('error within catch is ' + __WEBPACK_IMPORTED_MODULE_1__angular_http__["d" /* Response */]);
+            if (error.status === 404)
+                return __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"].throw('not found error');
+            return __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"].throw('app error');
+        });
+    };
+    //login user
+    HttpService.prototype.loginUser = function (user) {
+        //let bodyString = JSON.stringify(user); // Stringify payload
+        var headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Headers */]({ 'Content-Type': 'application/json' }); // ... Set content type to JSON
+        var options = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["c" /* RequestOptions */]({ headers: headers }); // Create a request option
+        // Parameters obj-
+        var params = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["e" /* URLSearchParams */]();
+        params.set('email', user.email);
+        params.set('password', user.password);
+        options.params = params;
+        return this._http.get(this.yellotasker_Api_URL + 'api/v1/user/login', options)
+            .map(function (response) { return response.json(); })
+            .catch(function (error) {
+            console.log('error within catch is ' + __WEBPACK_IMPORTED_MODULE_1__angular_http__["d" /* Response */]);
+            if (error.status === 404)
+                return __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"].throw('not found error');
+            return __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"].throw('app error');
+        });
+    };
+    return HttpService;
+}());
+HttpService = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Injectable */])(),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_http__["f" /* Http */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_http__["f" /* Http */]) === "function" && _a || Object])
+], HttpService);
+
+var _a;
+//# sourceMappingURL=http.service.js.map
 
 /***/ }),
 
