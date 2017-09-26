@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Index</title>
+
+    <!-- Bootstrap -->
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	 <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  	<div id="loading">
+  <img id="loading-image" src="img/cate-more.png" alt="Loading..." />
+</div>
+    <div class="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-2">
+					<div class="logo border-right">
+						<img src="img/logo.png" alt="yellotasker">
+					</div>	
+				</div>
+				<div class="col-sm-4">
+					<ul class="top-links-left">
+						<li><a href="#" data-toggle="modal" data-target="#myModal">Login</a></li>
+						<li><a href="#" data-toggle="modal" data-target="#myModal1">Sign up</a></li>
+						<li><a href="#">How it works</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-6">
+					<div class="right-top-links pull-right">
+						<ul>
+							<li><a href="#" data-toggle="modal" data-target="#myModal2">Post a task</a></li>
+							<li><a href="#">Browse a task</a></li>
+<li class="after-login-pic"><a href="#" id="open-welcome"><img src="img/task-person.png" height="39px;"> <span class="welcome-text">Welcome Vaibhav <i class="fa fa-chevron-down"></i></span></a>								<div class="welcome-div" style="display:none;">
+									
+									<div class="user-name">
+										<p><a href="#">Dashboard</a></p>
+										<p><a href="#">Logout</a></p>
+									</div>
+									
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Login</h4>
+      </div>
+      <div class="modal-body">
+			
+			
+			<div class="form-item login-form-item"><label class="block">Email <span style="color:red;">*</span></label><input type="email" id="email-input" name="email" value=""></div>
+			<div class="form-item login-form-item"><label class="block">Password <span style="color:red;">*</span></label><input type="password" id="password-input" name="password" value=""></div>
+			<div class="form-item login-form-item center padder5"><button id="login-button" class="button-cta button-lrg center full-width">Login</button><center><a class="forgot-password-link small center margin-20-top">Forgot Password?</a></center></div>
+			<div class="login-form-item"><div class="wings">or</div></div>
+			<div class="login-div text-center">
+				<p>Dont have an account? <a href="#">Sign up</a></p>
+			</div>
+			<div class="facebook-btn">
+				<a href="#">Login With Facebook</a>
+			</div>
+			<div class="inta-btn">
+				<a href="#">Login With Instagram</a>
+			</div>
+			<div class="google-btn">
+				<a href="#">Login With Google+</a>
+			</div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Sign up</h4>
+      </div>
+      <div class="modal-body">
+			
+			<div class="form-item login-form-item"><label class="block">First name <span style="color:red;">*</span></label><input type="email" id="email-input" name="email" value=""></div>
+			<div class="form-item login-form-item"><label class="block">Last name</label><input type="email" id="email-input" name="email" value=""></div>
+			<div class="form-item login-form-item"><label class="block">Email <span style="color:red;">*</span></label><input type="email" id="email-input" name="email" value=""></div>
+			<div class="form-item login-form-item"><label class="block">Password <span style="color:red;">*</span></label><input type="password" id="password-input" name="password" value=""></div>
+			<div class="form-item login-form-item"><label class="block">Confirm password <span style="color:red;">*</span></label><input type="password" id="password-input" name="password" value=""></div>
+
+			<div class="form-item login-form-item center padder5"><button id="login-button" class="button-cta button-lrg center full-width">Welcome To Yellotasker</button></div>
+		<div class="login-form-item"><div class="wings">or</div></div>
+		<div class="login-div text-center">
+				<p>Already have an account? <a href="#">Login</a></p>
+			</div>
+			<div class="facebook-btn">
+				<a href="#">Signup With Facebook</a>
+			</div>
+			<div class="inta-btn">
+				<a href="#">Signup With Instagram</a>
+			</div>
+			<div class="google-btn">
+				<a href="#">Signup With Google+</a>
+			</div>
+			<center><a class="forgot-password-link small center margin-20-top">By signing up, I agree to Yellotasker's Terms & Conditions, 
+Privacy Policy and Community Guidelines.</a></center>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<div class="modal fade post-task-model" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">post your task for FREE</h4>
+      </div>
+      <div class="modal-body">
+	  		<div class="stepwizard">
+    <div class="stepwizard-row">
+        <div class="stepwizard-step">
+            <button href="#home" aria-controls="home" role="tab" data-toggle="tab" type="button" class="btn btn-danger btn-circle">1</button>
+            <p>Details</p>
+        </div>
+        <div class="stepwizard-step">
+            <button href="#profile" aria-controls="profile" role="tab" data-toggle="tab" type="button" class="btn btn-primary btn-circle">2</button>
+            <p>Location</p>
+        </div>
+        <div class="stepwizard-step">
+            <button href="#messages" aria-controls="messages" role="tab" data-toggle="tab" type="button" class="btn btn-primary btn-circle">3</button>
+            <p>Budget</p>
+        </div>
+		
+    </div>
+</div>	
+			<div class="tab-content">
+                                        <div role="tabpanel" class="tab-pane active" id="home">
+														<div class="form-item login-form-item"><label class="block">Task title</label><input type="email" id="email-input" name="email" placeholder="e.g. Clean my 2 bedroom apartment"></div>
+			<div class="form-item login-form-item"><label class="block">Describe your task in more detail</label>
+				
+				<textarea id="post-task-description" class="tick-input" rows="8"></textarea>
+				<span style="float:right; font-size:13px;">Upto 5000 characters</span>
+				<span class="sub-content" style="float:left; width:100%;">For your safety, please do not share personal information, e.g., email, phone or address.</span>
+			</div>
+			<div class="form-item login-form-item center padder5"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab" id="login-button" class="button-cta button-lrg center full-width">Continue</a><center></center></div>
+										</div>
+                                        <div role="tabpanel" class="tab-pane" id="profile">
+											<div class="form-item login-form-item"><label class="block">Where would the task be completed?</label><input type="email" id="email-input" name="email" placeholder="Sydney, NSW, 2000, Australia"></div>
+											<br/>
+				<div class="funkyradio divide-row">
+					<div class="funkyradio-default">
+						<input type="radio" name="radio" id="radio4" />
+						<label for="radio4">Come to work place</label>
+					</div>
+					<div class="funkyradio-default">
+						<input type="radio" name="radio" id="radio5" />
+						<label for="radio5">Work remotely</label>
+					</div>
+				</div>
+				<div class="form-item login-form-item"><label class="block">Address</label><textarea id="post-task-description" class="tick-input" rows="8"></textarea></div>
+				<div class="form-item login-form-item"><label class="block">Zipcode</label><input type="email" id="email-input" name="email" placeholder=""></div>
+				
+				
+				<span class="sub-content">We value your work details and contact number so, we promise we will not share contact details untill or less a user has shown interest in your task</span>
+				
+			<div class="form-item login-form-item"><label class="block">Due date</label>
+				 <div class="funkyradio divide-row">
+					<div class="funkyradio-default">
+						<input type="radio" name="radio" id="radio1" />
+						<label for="radio1">Today</label>
+					</div>
+					<div class="funkyradio-default">
+						<input type="radio" name="radio" id="radio2" />
+						<label for="radio2">Within 1 week</label>
+					</div>
+					<div class="funkyradio-default">
+						<input type="radio" name="radio" id="radio55" />
+						<label for="radio55">On a certain date</label>
+					</div>
+					
+				</div>
+				<div class="form-item login-form-item relative">
+					<span class="input-icon"><img src="img/calendar-icon.png"></span>
+					<input type="email" id="email-input" name="email" placeholder="select date" style="padding-left:35px;">
+				</div>
+				<span class="sub-content">For your safety, please do not share personal information, e.g., email, phone or address.</span>
+			</div>
+			<div class="form-item login-form-item center padder5"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab" id="login-button" class="button-cta button-lrg center full-width">Continue</a><center></center></div>
+										</div>
+                                        <div role="tabpanel" class="tab-pane" id="messages"><div class="form-item login-form-item"><label class="block">People required for this task</label><input type="number" id="email-input" name="email" placeholder="1"></div>
+										<br/>
+										
+			<div class="form-item login-form-item"><label class="block">What's your budget?</label>
+				
+				 
+				<div class="form-item login-form-item"><label class="block">$</label><input type="email" id="email-input" name="email" placeholder="e.g. 25"></div>
+				
+			</div>
+			<div class="form-item login-form-item center padder5"><a href="#finish" aria-controls="finish" role="tab" data-toggle="tab" id="login-button" class="button-cta button-lrg center full-width">Get Quotes Now	</a><center></center></div></div>
+			
+			<div role="tabpanel" class="tab-pane" id="finish">
+				<br/>
+				<div class="text-center">
+				<p><b>Your Post Succesfully added</b></p>
+				</div>
+						<div class="finish-radio">
+							<div class="radio-text">
+								<input type="radio" name="radio" id="radio10" />
+								<span>Pay to yellotasker and we will take care of your payments after completing task.</span>
+							</div>
+							<div class="radio-text">
+								<input type="radio" name="radio" id="radio11" />
+								<span>You release payment once done.  - Let me know when you need wording and we can ask client to provide these.</span>
+							</div>
+						</div>
+					
+					
+			<div class="form-item login-form-item center padder5 finish-btn"><a href="#" id="login-button" class="button-cta button-lrg center full-width">Finish</a><center></center></div>	
+			</div>
+                                        
+                                    </div>
+			 
+                                    <!-- Tab panes -->
+
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+	</div>
+	
+	<div class="sub-banner">
+		<img src="img/sub-banner.jpg" alt="">
+		<div class="browse-menu">
+			<div class="container">
+				<ul>
+					<li><a href="#">Latest task posted</a></li>       
+					<li><a href="#">Browse by due date</a></li>       
+					<li><a href="#">Browse by budget</a></li>       
+					<li><a href="#">Browse by man power</a></li>
+					<li class="search-task"><a href="#"><i class="fa fa-search"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	<div class="browse-view">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-8">
+					<div class="posted-card">
+						
+						<div class="card-left">
+							<h4>Paint My Door <span class="follow-ico"><a href="#"><img src="img/follow.png"></a></span></h4>
+							<p>Lorem ipsum dolor sit amet is the dummy lorem Lorem ipsum dolor sit
+amet is the dummy lorem ipsum sit amet <a href="#" data-toggle="modal" data-target="#myModal6">Read More</a></p>
+							<p class="poster-name">
+								<span><img src="img/poster.png" alt=""></span>
+								<span>Kanika Sethi<br/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></span>
+							</p>
+							<p class="location-date">
+								<span><i class="fa fa-location-arrow"></i> Sydeny</span>
+								<span><i class="fa fa-calendar"></i> Due date 14 sep 17</span>
+							</p>
+						</div>
+						<div class="card-right">
+							<p class="post-date">
+								Posted on 14 sep 17
+							</p>
+							<p class="main-price">
+								$100
+							</p>
+							<p class="make-offer">
+								<a href="#">Make An Offer</a>
+							</p>
+							<p class="save-job">
+								<i class="fa fa-plus"></i> Save Jobs
+							</p>
+							<p class="view-offer">
+								<a href="#">View & Make Offer</a>
+							</p>
+						</div>
+						<div class="modal post-detail-pop fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <div class="modal-body">
+			<div class="post-detail-left">
+				<div class="detail-pic-name">
+					<div class="pic-name-left">
+						<img src="img/poster-big.png" alt="">
+					</div>
+					<div class="pic-name-right">
+						<h4>Mark Josh <span class="follow-ico"><a href="#"><img src="img/follow.png"></a></span></h4>
+						<p>Lorem ipsum dolor sit amet is the dummy lorem
+Lorem ipsum dolor sit amet is the dummy</p>
+						<p><a href="#"><img src="img/open.png"></a> &nbsp;&nbsp;<a href="#"><img src="img/assigned.png"></a> &nbsp;&nbsp;<a href="#"><img src="img/complete.png"></a></p>
+					</div>
+				</div>
+				<div class="post-description">
+					<h4>Description</h4>
+					<p>
+						Need a reliable Airtasker to help clean my 2 bedroom / 2 bathroom apartment.
+Notes:<br/>
+Wash down bathroom walls as well please.They just need a freshen up
+<br/><br/>
+Standard Airtasker cleaning tasks should include: <br/>
+- Everywhere in the house: Wiping down furniture and visible surfaces; Mop and
+   vacuum floors; Empty rubbish <br/>
+- Bathrooms: Cleaning showers, bathtub and toilets; <br/>
+- Kitchen: Washing dishes; <br/><br/>
+
+I would also like the following cleaning tasks included:<br/>
+
+- Windows (interior side) cleaned - should be about 1 hour
+
+This task was created using a Template. You can still ask questions and make offers
+as you would on a standard task.
+
+					</p>
+					<br/>
+					<h4>Requirement</h4>
+					<p>This task has certain requirements of the Airtasker Worker</p>
+					<p>
+						<img src="img/map.jpg" alt="" width="100%;">
+					</p>
+				</div>
+			</div>
+			<div class="post-detail-right">
+				<h4>Task Budget</h4>
+				<div class="rate">
+					<p class="main-price">
+								$100
+								<span>Approx. 4hrs</span>
+					</p>
+					<p class="make-offer">
+								<a href="#">Make An Offer</a>
+					</p>
+				</div>
+				<div class="popup-location">
+					<div class="pop-location-nav">
+						<i class="fa fa-location-arrow"></i>
+					</div>
+					<div class="pop-location-desc">
+						<h5>Location</h5>
+						<p>Brookvale, New South
+Wales, Australia</p>
+					</div>
+					
+				</div>
+				<div class="popup-location">
+					<div class="pop-location-nav">
+						<i class="fa fa-calendar"></i>
+					</div>
+					<div class="pop-location-desc">
+						<h5>Posted by 20 sep</h5>
+						<p>Brookvale, New South
+Wales, Australia</p>
+					</div>
+					
+				</div>
+				<div class="offers-pop">
+					<div class="offer-div">
+						<img src="img/offer.png">
+					</div>
+					<div class="offer-div">
+						<img src="img/offer.png">
+					</div>
+					<div class="offer-div">
+						<img src="img/offer.png">
+					</div>
+				</div>
+			</div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+					</div>
+					
+					<div class="posted-card">
+						<div class="card-left">
+							<h4>Paint My Door <span class="follow-ico"><a href="#"><img src="img/follow.png"></a></span></h4>
+							<p>Lorem ipsum dolor sit amet is the dummy lorem Lorem ipsum dolor sit
+amet is the dummy lorem ipsum sit amet <a href="#" data-toggle="modal" data-target="#myModal6">Read More</a></p>
+							<p class="poster-name">
+								<span><img src="img/poster.png" alt=""></span>
+								<span>Kanika Sethi<br/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></span>
+							</p>
+							<p class="location-date">
+								<span><i class="fa fa-location-arrow"></i> Sydeny</span>
+								<span><i class="fa fa-calendar"></i> Due date 14 sep 17</span>
+							</p>
+						</div>
+						<div class="card-right">
+							<p class="post-date">
+								Posted on 14 sep 17
+							</p>
+							<p class="main-price">
+								$100
+							</p>
+							<p class="make-offer">
+								<a href="#">Make An Offer</a>
+							</p>
+							<p class="save-job">
+								<i class="fa fa-plus"></i> Save Jobs
+							</p>
+							<p class="view-offer">
+								<a href="#">View & Make Offer</a>
+							</p>
+						</div>
+						<div class="modal post-detail-pop fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <div class="modal-body">
+			<div class="post-detail-left">
+				<div class="detail-pic-name">
+					<div class="pic-name-left">
+						<img src="img/poster-big.png" alt="">
+					</div>
+					<div class="pic-name-right">
+						<h4>Mark Josh <span class="follow-ico"><a href="#"><img src="img/follow.png"></a></span></h4>
+						<p>Lorem ipsum dolor sit amet is the dummy lorem
+Lorem ipsum dolor sit amet is the dummy</p>
+						<p><a href="#"><img src="img/open.png"></a> &nbsp;&nbsp;<a href="#"><img src="img/assigned.png"></a> &nbsp;&nbsp;<a href="#"><img src="img/complete.png"></a></p>
+					</div>
+				</div>
+				<div class="post-description">
+					<h4>Description</h4>
+					<p>
+						Need a reliable Airtasker to help clean my 2 bedroom / 2 bathroom apartment.
+Notes:<br/>
+Wash down bathroom walls as well please.They just need a freshen up
+<br/><br/>
+Standard Airtasker cleaning tasks should include: <br/>
+- Everywhere in the house: Wiping down furniture and visible surfaces; Mop and
+   vacuum floors; Empty rubbish <br/>
+- Bathrooms: Cleaning showers, bathtub and toilets; <br/>
+- Kitchen: Washing dishes; <br/><br/>
+
+I would also like the following cleaning tasks included:<br/>
+
+- Windows (interior side) cleaned - should be about 1 hour
+
+This task was created using a Template. You can still ask questions and make offers
+as you would on a standard task.
+
+					</p>
+					<br/>
+					<h4>Requirement</h4>
+					<p>This task has certain requirements of the Airtasker Worker</p>
+					<p>
+						<img src="img/map.jpg" alt="" width="100%;">
+					</p>
+				</div>
+			</div>
+			<div class="post-detail-right">
+				<h4>Task Budget</h4>
+				<div class="rate">
+					<p class="main-price">
+								$100
+								<span>Approx. 4hrs</span>
+					</p>
+					<p class="make-offer">
+								<a href="#">Make An Offer</a>
+					</p>
+				</div>
+				<div class="popup-location">
+					<div class="pop-location-nav">
+						<i class="fa fa-location-arrow"></i>
+					</div>
+					<div class="pop-location-desc">
+						<h5>Location</h5>
+						<p>Brookvale, New South
+Wales, Australia</p>
+					</div>
+					
+				</div>
+				<div class="popup-location">
+					<div class="pop-location-nav">
+						<i class="fa fa-calendar"></i>
+					</div>
+					<div class="pop-location-desc">
+						<h5>Posted by 20 sep</h5>
+						<p>Brookvale, New South
+Wales, Australia</p>
+					</div>
+					
+				</div>
+				<div class="offers-pop">
+					<div class="offer-div">
+						<img src="img/offer.png">
+					</div>
+					<div class="offer-div">
+						<img src="img/offer.png">
+					</div>
+					<div class="offer-div">
+						<img src="img/offer.png">
+					</div>
+				</div>
+			</div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+					</div>
+					
+					<div class="posted-card">
+						<div class="card-left">
+							<h4>Paint My Door <span class="follow-ico"><a href="#"><img src="img/follow.png"></a></span></h4>
+							<p>Lorem ipsum dolor sit amet is the dummy lorem Lorem ipsum dolor sit
+amet is the dummy lorem ipsum sit amet <a href="#" data-toggle="modal" data-target="#myModal6">Read More</a></p>
+							<p class="poster-name">
+								<span><img src="img/poster.png" alt=""></span>
+								<span>Kanika Sethi<br/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></span>
+							</p>
+							<p class="location-date">
+								<span><i class="fa fa-location-arrow"></i> Sydeny</span>
+								<span><i class="fa fa-calendar"></i> Due date 14 sep 17</span>
+							</p>
+						</div>
+						<div class="card-right">
+							<p class="post-date">
+								Posted on 14 sep 17
+							</p>
+							<p class="main-price">
+								$100
+							</p>
+							<p class="make-offer">
+								<a href="#">Make An Offer</a>
+							</p>
+							<p class="save-job">
+								<i class="fa fa-plus"></i> Save Jobs
+							</p>
+							<p class="view-offer">
+								<a href="#">View & Make Offer</a>
+							</p>
+						</div>
+						<div class="modal post-detail-pop fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <div class="modal-body">
+			<div class="post-detail-left">
+				<div class="detail-pic-name">
+					<div class="pic-name-left">
+						<img src="img/poster-big.png" alt="">
+					</div>
+					<div class="pic-name-right">
+						<h4>Mark Josh <span class="follow-ico"><a href="#"><img src="img/follow.png"></a></span></h4>
+						<p>Lorem ipsum dolor sit amet is the dummy lorem
+Lorem ipsum dolor sit amet is the dummy</p>
+						<p><a href="#"><img src="img/open.png"></a> &nbsp;&nbsp;<a href="#"><img src="img/assigned.png"></a> &nbsp;&nbsp;<a href="#"><img src="img/complete.png"></a></p>
+					</div>
+				</div>
+				<div class="post-description">
+					<h4>Description</h4>
+					<p>
+						Need a reliable Airtasker to help clean my 2 bedroom / 2 bathroom apartment.
+Notes:<br/>
+Wash down bathroom walls as well please.They just need a freshen up
+<br/><br/>
+Standard Airtasker cleaning tasks should include: <br/>
+- Everywhere in the house: Wiping down furniture and visible surfaces; Mop and
+   vacuum floors; Empty rubbish <br/>
+- Bathrooms: Cleaning showers, bathtub and toilets; <br/>
+- Kitchen: Washing dishes; <br/><br/>
+
+I would also like the following cleaning tasks included:<br/>
+
+- Windows (interior side) cleaned - should be about 1 hour
+
+This task was created using a Template. You can still ask questions and make offers
+as you would on a standard task.
+
+					</p>
+					<br/>
+					<h4>Requirement</h4>
+					<p>This task has certain requirements of the Airtasker Worker</p>
+					<p>
+						<img src="img/map.jpg" alt="" width="100%;">
+					</p>
+				</div>
+			</div>
+			<div class="post-detail-right">
+				<h4>Task Budget</h4>
+				<div class="rate">
+					<p class="main-price">
+								$100
+								<span>Approx. 4hrs</span>
+					</p>
+					<p class="make-offer">
+								<a href="#">Make An Offer</a>
+					</p>
+				</div>
+				<div class="popup-location">
+					<div class="pop-location-nav">
+						<i class="fa fa-location-arrow"></i>
+					</div>
+					<div class="pop-location-desc">
+						<h5>Location</h5>
+						<p>Brookvale, New South
+Wales, Australia</p>
+					</div>
+					
+				</div>
+				<div class="popup-location">
+					<div class="pop-location-nav">
+						<i class="fa fa-calendar"></i>
+					</div>
+					<div class="pop-location-desc">
+						<h5>Posted by 20 sep</h5>
+						<p>Brookvale, New South
+Wales, Australia</p>
+					</div>
+					
+				</div>
+				<div class="offers-pop">
+					<div class="offer-div">
+						<img src="img/offer.png">
+					</div>
+					<div class="offer-div">
+						<img src="img/offer.png">
+					</div>
+					<div class="offer-div">
+						<img src="img/offer.png">
+					</div>
+				</div>
+			</div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="browse-right-menu">
+						<center><h4>Work In Progress</h4></center>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3">
+					<h4>Discover</h4>
+					<ul class="footer-link">
+						<li><a href="#">Yellotasker card</a></li>
+						<li><a href="#">How it works</a></li>
+						<li><a href="#">Yellotasker for business</a></li>
+						<li><a href="#">Earn money</a></li>
+						<li><a href="#">New user FAQ</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-3">
+					<h4>Company</h4>
+					<ul class="footer-link">
+						<li><a href="#">About us</a></li>
+						<li><a href="#">Careers</a></li>
+						<li><a href="#">Community guidelines</a></li>
+						<li><a href="#">Terms & conditions</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Contact us</a></li>
+						<li><a href="#">Privacy policy</a></li>
+						<li><a href="#">Values</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-3">
+					<h4>Existing Members</h4>
+					<ul class="footer-link">
+						<li><a href="#">Post a task</a></li>
+						<li><a href="#">Browse tasks</a></li>
+						<li><a href="#">Login</a></li>
+						<li><a href="#">Yellotasker</a></li>
+						<li><a href="#">Support centre</a></li>
+						<li><a href="#">Merchandise</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-3">
+					<h4>Categories</h4>
+					<ul class="footer-link">
+						<li><a href="#">Tradesman</a></li>
+						<li><a href="#">Marketing and design</a></li>
+						<li><a href="#">Home and garden</a></li>
+						<li><a href="#">Delivery and removals</a></li>
+						<li><a href="#">Fun and quirky</a></li>
+						<li><a href="#">Event and photography</a></li>
+						<li><a href="#">Computer it web</a></li>
+						<li><a href="#">Business and admin</a></li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="footer-app">
+						<img src="img/google-play.png" height="35px;"> <img src="img/apple-store.png" height="35px;">
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	<div class="last">
+		<p>yellotasker 2017, All rights reserved</p>
+	</div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://codepen.io/fbrz/pen/9a3e4ee2ef6dfd479ad33a2c85146fc1.js"></script>
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="https://use.fontawesome.com/a832a5b49f.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	
+	<script language="javascript" type="text/javascript">
+     $(window).load(function() {
+     $('#loading').hide();
+  });
+</script>
+  </body>
+</html>
