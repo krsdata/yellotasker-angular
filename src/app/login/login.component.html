@@ -1,0 +1,83 @@
+
+
+<!--sign up modal pop up -->
+<!--<app-modal #loginModal>
+    <div class="app-modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Login</h4>
+    </div>
+    <div class="app-modal-body">
+        <div class="login-div text-center">
+	     <p>Dont have an account? <a href="#">Sign up</a></p>
+        </div>
+        <div class="facebook-btn">
+		    <a href="#">Login With Facebook</a>
+         </div>
+	    <div class="login-form-item"><div class="wings">or</div></div>
+	        <form #loginForm="ngForm">
+            <div *ngIf="loginForm.invalid && loginForm.submitted"
+            class="alert alert-danger">
+            Please enter required details.
+            </div>
+			<div class="form-item login-form-item"><label class="block">Email</label>
+             <input type="email" placeholder="Enter email" name="email" required  [(ngModel)]="user.email"
+                         pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$"  #email="ngModel">
+                        <span class="help-block" *ngIf="loginForm.submitted && email.errors">
+                           <span *ngIf="email.errors?.required">
+                                Email is required.
+                            </span>
+                            <span *ngIf="email.errors?.pattern">
+                                Email format is invalid
+                            </span>
+                        </span>
+			</div>
+			<div class="form-item login-form-item"><label class="block">Password</label>
+           <input type="password" placeholder="Enter Password" name="password" required 
+                       [(ngModel)]="user.password" #password="ngModel"
+                        maxlength = "12" minlength="6">
+                        <span class="help-block" *ngIf="password.errors && loginForm.submitted" >
+                           <span *ngIf="password.errors?.required">
+                                password is required.
+                            </span>
+                            <span *ngIf="password.errors?.minlength || password.errors?.maxlength">
+                            Password must contain between 6 - 12 characters
+                             </span>
+                        </span>
+			</div>
+            <div class="form-item login-form-item center padder5">
+				<button id="login-button" class="button-cta button-lrg center full-width" (click) = "login(loginForm, loginModal )">Login</button>
+				<a class="forgot-password-link small center margin-20-top">Forgot Password?</a>
+            </div>
+		  </form>
+    </div>
+</app-modal>-->
+<app-modal #loginModal>
+<!--<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">-->
+  <!--<div class="modal-dialog" role="document">-->
+    <!--<div class="modal-content">-->
+      <div class="app-modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Login</h4>
+      </div>
+      <div class="app-modal-body">
+			
+			
+			<div class="form-item login-form-item"><label class="block">Email</label><input type="email" id="email-input" name="email" value=""></div>
+			<div class="form-item login-form-item"><label class="block">Password</label><input type="password" id="password-input" name="password" value=""></div>
+			<div class="form-item login-form-item center padder5">
+                <button id="login-button" class="button-cta button-lrg center full-width">Login</button>
+                <a class="forgot-password-link small center margin-20-top">Forgot Password?</a></div>
+			<div class="login-form-item"><div class="wings">or</div></div>
+			<div class="login-div text-center">
+				<p>Dont have an account? <a href="#">Sign up</a></p>
+			</div>
+			<div class="facebook-btn">
+				<a href="#">Login With Facebook</a>
+			</div>
+      </div>
+      
+    <!--</div>-->
+  <!--</div>-->
+<!--</div>-->
+</app-modal>

@@ -1,4 +1,5 @@
-    <div class="header">
+  <div class="loader" [hidden]="loaderIndicator"></div>
+		<div class="header">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-2">
@@ -8,10 +9,11 @@
 				</div>
 				<div class="col-sm-5">
 					<ul class="top-links-left">
-						<li><a href="#" data-toggle="modal" data-target="#myModal">Login</a></li>
-						<li><a href="#" data-toggle="modal" data-target="#myModal1">Sign up</a></li>
+						<li><a (click)="loginModal.show()">Login</a></li>
+						<li><signup [loaderIndicator]="loaderIndicator"  (setLoader)="setLoader($event)"></signup></li>
 						<li><a href="#">How it works</a></li>
 					</ul>
+					<login [loaderIndicator]="loaderIndicator"  (setLoader)="setLoader($event)"></login>	
 				</div>
 				<div class="col-sm-5">
 					<div class="right-top-links pull-right">
@@ -92,3 +94,5 @@
 	<div class="last">
 		<p>yellotasker 2017, All rights reserved</p>
 	</div>
+
+

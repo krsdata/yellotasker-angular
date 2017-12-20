@@ -66,14 +66,13 @@ h4#myModalLabel {
     text-align: center;
     margin: 25px 0px;
 }
-.facebook-btn a
-{
-background: linear-gradient(-180deg,#5070b2 0%,#3e5d9d 100%);
+.facebook-btn a {
+    background: linear-gradient(-180deg,#5070b2 0%,#3e5d9d 100%);
     box-shadow: 0 1px 0 0 rgba(0,0,0,0.3), inset 0 1px 0 0 #96b1ea;
-	padding:10px 80px;
-	color:#fff;
-	border:none;
-	border-radius:40px;
+    padding: 15px 80px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
 }
 
 .login-form-item {
@@ -105,11 +104,11 @@ background: linear-gradient(-180deg,#5070b2 0%,#3e5d9d 100%);
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    border-top: 1px solid #f1f1f1;
+        border-top: 1px solid #ccc;
 }
 .login-form-item {
     margin: 5px auto 7px auto;
-    max-width: 300px;
+    max-width: 90%;
 }
 .form-item label {
     text-align: left;
@@ -143,11 +142,12 @@ background: linear-gradient(-180deg,#5070b2 0%,#3e5d9d 100%);
 }
 .button-lrg {
     font-size: 14px;
-    padding: 10px 20px;
+    padding: 15px 20px;
     margin-bottom: 4px;
+    font-weight: 600;
 }
 .login-form-item button {
-    margin-top: 10px;
+    margin-top: 15px;
 }
 .full-width {
     width: 100%;
@@ -156,7 +156,7 @@ background: linear-gradient(-180deg,#5070b2 0%,#3e5d9d 100%);
     color: #000;
     cursor: pointer;
     line-height: 1.4;
-    border-radius: 50px;
+    border-radius: 5px;
     display: inline-block;
     box-sizing: border-box;
     letter-spacing: .05em;
@@ -269,11 +269,11 @@ margin-top:25px;
 margin-right:20px;
 vertical-align:middle;
 }
-.last
-{
-text-align:center;
-background:#333535;
-
+.last {
+    text-align: center;
+    background: #333535;
+    float: left;
+    width: 100%;
 }
 .last p
 {
@@ -394,7 +394,7 @@ font-size:16px;
 {
 float:left;
 width:100%;
-background:url(/assets/images/earn-bg.jpg);
+background:url(../img/earn-bg.jpg);
 background-repeat:no-repeat;
 background-size:cover;
 height:549px;
@@ -476,9 +476,137 @@ img.human-pic {
 .modal-body {
     position: relative;
     padding: 15px;
-    background: #f9f9f9;
+    background: #eee;
 }
 button#login-button:hover {
     background: #000;
     color: #fff;
 }
+textarea#post-task-description {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+	padding: 10px 15px;
+}
+.post-task-model .login-form-item {
+    margin: 5px auto 7px auto;
+    max-width: 100% !important;
+}
+.login-form-item input {
+    width: 100%;
+    display: block;
+    font-size: 13px;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 0px 3px 5px #ccc;
+}
+.sub-content
+{
+display:block;
+width:100%;
+margin-bottom:10px;
+font-size:13px;
+color:#666;
+}
+a.forgot-password-link.small.center.margin-20-top {
+    color: #000;
+}
+.funkyradio label {
+    /*min-width: 400px;*/
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #D1D3D4;
+    font-weight: normal;
+}
+.funkyradio input[type="radio"]:empty, .funkyradio input[type="checkbox"]:empty {
+    display: none;
+}
+.funkyradio input[type="radio"]:empty ~ label, .funkyradio input[type="checkbox"]:empty ~ label {
+    position: relative;
+    line-height: 2.5em;
+    text-indent: 3.25em;
+    margin-top: 15px;
+	background:#fff;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.funkyradio input[type="radio"]:empty ~ label:before, .funkyradio input[type="checkbox"]:empty ~ label:before {
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    content:'';
+    width: 2.5em;
+    background: #D1D3D4;
+    border-radius: 3px 0 0 3px;
+}
+.funkyradio input[type="radio"]:hover:not(:checked) ~ label:before, .funkyradio input[type="checkbox"]:hover:not(:checked) ~ label:before {
+    content:'\2714';
+    text-indent: .9em;
+    color: #C2C2C2;
+}
+.funkyradio input[type="radio"]:hover:not(:checked) ~ label, .funkyradio input[type="checkbox"]:hover:not(:checked) ~ label {
+    color: #888;
+}
+.funkyradio input[type="radio"]:checked ~ label:before, .funkyradio input[type="checkbox"]:checked ~ label:before {
+    content:'\2714';
+    text-indent: .9em;
+    color: #333;
+    background-color: #ccc;
+}
+.funkyradio input[type="radio"]:checked ~ label, .funkyradio input[type="checkbox"]:checked ~ label {
+    color: #777;
+}
+.funkyradio input[type="radio"]:focus ~ label:before, .funkyradio input[type="checkbox"]:focus ~ label:before {
+    box-shadow: 0 0 0 3px #999;
+}
+.funkyradio-default input[type="radio"]:checked ~ label:before, .funkyradio-default input[type="checkbox"]:checked ~ label:before {
+    color: #333;
+    background-color: #ccc;
+}
+.funkyradio-primary input[type="radio"]:checked ~ label:before, .funkyradio-primary input[type="checkbox"]:checked ~ label:before {
+    color: #fff;
+    background-color: #337ab7;
+}
+.funkyradio-success input[type="radio"]:checked ~ label:before, .funkyradio-success input[type="checkbox"]:checked ~ label:before {
+    color: #fff;
+    background-color: #5cb85c;
+}
+.funkyradio-danger input[type="radio"]:checked ~ label:before, .funkyradio-danger input[type="checkbox"]:checked ~ label:before {
+    color: #fff;
+    background-color: #d9534f;
+}
+.funkyradio-warning input[type="radio"]:checked ~ label:before, .funkyradio-warning input[type="checkbox"]:checked ~ label:before {
+    color: #fff;
+    background-color: #f0ad4e;
+}
+.funkyradio-info input[type="radio"]:checked ~ label:before, .funkyradio-info input[type="checkbox"]:checked ~ label:before {
+    color: #fff;
+    background-color: #5bc0de;
+}
+.funkyradio {
+    margin-bottom: 10px;
+    margin-top: -15px;
+}
+/* You can add global styles to this file, and also import other style files */
+/*.loader {
+    border: 16px solid #000;
+    border-top: 16px solid yellow;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    z-index: 99999;
+    left: 50%;
+    top:50%;
+    position: absolute;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}*/
